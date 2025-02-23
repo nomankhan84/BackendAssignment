@@ -56,3 +56,7 @@ This project is a Symfony-based backend that manages user data from a CSV file a
 ```sh
 git clone <repository-url>
 cd backend
+```
+### **1. Clone the Repository**
+composer install
+
