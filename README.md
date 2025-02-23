@@ -61,4 +61,28 @@ cd backend
 ```sh
 composer install
 ```
+### **3. Set Up enviorment variables**
 
+```sh
+DATABASE_URL="mysql://username:password@127.0.0.1:3306/db_name"
+MAILER_DSN=smtp://your-smtp-server
+TWITTER_CLIENT_ID=your_twitter_client_id
+TWITTER_CLIENT_SECRET=your_twitter_client_secret
+
+```
+### **4. Run database migration**
+
+```sh
+php bin/console doctrine:migrations:migrate
+
+```
+
+### **5. Start symfony server**
+
+```sh
+symfony server:start
+```
+###  or you can start PHP server**
+
+```sh
+php -S 127.0.0.1:8000 -t public
