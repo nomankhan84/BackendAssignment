@@ -8,7 +8,7 @@ This project is a Symfony-based backend that manages user data from a CSV file a
 - **Framework:** Symfony
 - **Database:** MySQL
 - **Authentication:** Twitter OAuth 1.0a
-- **Email Service:** Symfony Mailer
+- **Email Service:** Symfony Mailer with Mailgun
 
 ---
 
