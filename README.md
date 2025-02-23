@@ -65,11 +65,18 @@ composer install
 
 ```sh
 DATABASE_URL="mysql://username:password@127.0.0.1:3306/db_name"
-MAILER_DSN=smtp://your-smtp-server
+MAILER_DSN=smtp://Yourname@Yourdomain.com:Yourpassword@smtp.mailgun.org:587
 TWITTER_CLIENT_ID=your_twitter_client_id
 TWITTER_CLIENT_SECRET=your_twitter_client_secret
 
 ```
+Replace username with you database username as well as the password and enter the name of the database of your choice.
+Also you have to replace the twitter client Id and Secret with your actual Credentials. If you dont know how to obtain API key you can watch the video given below
+
+```sh
+https://youtu.be/PH99JXdz2_k?si=7RtrjEWR62Nffmbw
+```
+
 ### **4. Run database migration**
 
 ```sh
