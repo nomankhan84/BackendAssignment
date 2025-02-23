@@ -104,3 +104,51 @@ php -S 127.0.0.1:8000 -t public
 ```sh
 https://youtu.be/VI6aXV4YbdI?si=QHYCXRHTzBs7wLnH
 ```
+
+
+## Example Response
+
+```sh
+{
+    "message": "File uploaded, data stored, and emails sent!",
+    "path": "D:\\xampp\\htdocs\\assignment/public/uploads/data.csv"
+}
+```
+
+```sh
+
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "nomankhan96801@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Alice Smith",
+        "email": "gandm160@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Bob Johnson",
+        "email": "develup.edu@gmail.com"
+    },
+
+]
+```
+
+```sh
+
+ID,Name,Email,Username,Address,Role
+1,"John Doe",nomankhan96801@gmail.com,johndoe,"123 Street",USER
+2,"Alice Smith",gandm160@gmail.com,alicesmith,"456 Avenue",ADMIN
+3,"Bob Johnson",develup.edu@gmail.com,bobjohnson,"789 Boulevard",USER
+
+```
+
+```sh
+{
+    "status": "success",
+    "message": "Database restored successfully."
+}
+```
