@@ -86,3 +86,14 @@ symfony server:start
 
 ```sh
 php -S 127.0.0.1:8000 -t public
+```
+
+## Email Sending with Mailgun
+- **This project uses Mailgun via Symfony Mailer for sending email notifications.
+- **Ensure you have your domain verified and have a valid email credentials
+- **Update the MAILER_DSN in your .env file with your Mailgun credentials
+- **For refrence you can watch the video with the link given below
+
+```sh
+https://youtu.be/VI6aXV4YbdI?si=QHYCXRHTzBs7wLnH
+```
